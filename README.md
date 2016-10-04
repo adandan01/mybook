@@ -10,6 +10,9 @@ Mybook is a social network app. In the app, you can edit your social profile. On
 You can add as family member as you like. For each family member, you need to specify family member's relationship with you.  
    
 
-example 1
+useful documenations:
 ----
+* https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-display/
+* https://docs.djangoproject.com/en/1.10/topics/class-based-views/generic-editing/
+* https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-editing/
 
