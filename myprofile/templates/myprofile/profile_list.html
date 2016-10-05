@@ -1,17 +1,22 @@
-<h1>Here are all user profiles.</h1>
-<div>
-    <ul>
-        {% for profile in object_list %}
-            <li>{{ profile.first_name }} {{ profile.last_name }} | <a
-                    href="{% url 'profile-update' profile.pk %}">edit</a>
-                <a href="{% url 'profile-delete' profile.pk %}">delete</a>
-            </li>
-        {% empty %}
-            <li>No profile yet.</li>
-        {% endfor %}
+{% extends "base.html" %}
+{% block title %}{% endblock %}
+{% block content %}
 
-    </ul>
-    <p>
-        <a href="{% url 'profile-add' %}">add a profile</a>
-    </p>
-</div>
+    <h1>Here are all user profiles.</h1>
+    <div>
+        <ul>
+            {% for profile in object_list %}
+                <li>{{ profile.first_name }} {{ profile.last_name }} | <a
+                        href="{% url 'profile-update' profile.pk %}">edit</a>
+                    <a href="{% url 'profile-delete' profile.pk %}">delete</a>
+                </li>
+            {% empty %}
+                <li>No profile yet.</li>
+            {% endfor %}
+
+        </ul>
+        <p>
+            <a href="{% url 'profile-add' %}">add a profile</a>
+        </p>
+    </div>
+{% endblock %}

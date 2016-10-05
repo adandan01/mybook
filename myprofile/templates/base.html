@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <title>{% block title %}My amazing site{% endblock %}</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div id="content" class="container">
+    <div class="md-col-10">
+        {% block content %}{% endblock %}
+    </div>
+
+</div>
+</body>
+</html>
