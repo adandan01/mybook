@@ -18,6 +18,7 @@ class ProfileCreate(CreateView):
 class ProfileFamilyMemberCreate(CreateView):
     model = Profile
     fields = ['first_name', 'last_name']
+    success_url = reverse_lazy('profile-list')
 
     def get_context_data(self, **kwargs):
         data = super(ProfileFamilyMemberCreate, self).get_context_data(**kwargs)

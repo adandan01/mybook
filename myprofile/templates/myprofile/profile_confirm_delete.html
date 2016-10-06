@@ -2,6 +2,8 @@
 
 {% block title %}{% endblock %}
 {% block content %}
+    <h2></h2>
+    <hr>
     <div>
         <form action="" method="post">{% csrf_token %}
             <p>Are you sure you want to delete "{{ object }}"?</p>

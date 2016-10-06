@@ -3,7 +3,7 @@
 
 {% block title %}{% endblock %}
 {% block content %}
-    <h2>Update Profile</h2>
+    <h2>Profile</h2>
     <hr>
     <div class="col-md-4">
         <form action="" method="post">{% csrf_token %}
@@ -38,7 +38,7 @@
                     </tr>
                 {% endfor %}
             </table>
-            <input type="submit" value="Save"/>
+            <input type="submit" value="Save"/> <a href="{% url 'profile-list' %}">back to the list</a>
         </form>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -47,7 +47,7 @@
         $('.formset_row').formset({
             addText: 'add family member',
             deleteText: 'remove',
-            prefix: 'familymember'
+            prefix: 'familymember_set'
         });
     </script>
 {% endblock %}

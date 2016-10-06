@@ -19,5 +19,5 @@ class Profile(models.Model):
 
 class FamilyMember(models.Model):
     profile = models.ForeignKey(Profile)
-    member_name = models.CharField(max_length=100)
-    relationship_name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100)
+    relationship = models.CharField(max_length=100)
