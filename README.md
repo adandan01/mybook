@@ -22,11 +22,11 @@ Load Sample Data
 
 Useful references:
 -----------
-* https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-display/
-* https://docs.djangoproject.com/en/1.10/topics/class-based-views/generic-editing/
-* https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-editing/
-* https://docs.djangoproject.com/en/1.10/ref/class-based-views/flattened-index/
-* https://docs.djangoproject.com/en/1.10/topics/forms/modelforms/#inline-formsets
+* https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/
+* https://docs.djangoproject.com/en/2.2/topics/class-based-views/generic-editing/
+* https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-editing/
+* https://docs.djangoproject.com/en/2.2/ref/class-based-views/flattened-index/
+* https://docs.djangoproject.com/en/2.2/topics/forms/modelforms/#inline-formsets
 * http://whoisnicoleharris.com/2015/01/06/implementing-django-formsets.html
 * https://github.com/elo80ka/django-dynamic-formset
 * https://gist.github.com/neara/6209563
