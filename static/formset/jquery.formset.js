@@ -9,6 +9,11 @@
  * Licensed under the New BSD License
  * See: http://www.opensource.org/licenses/bsd-license.php
  */
+
+  /**
+ repo => https://github.com/elo80ka/django-dynamic-formset
+ */
+
 ;(function($) {
     $.fn.formset = function(opts)
     {

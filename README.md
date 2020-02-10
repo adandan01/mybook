@@ -14,6 +14,11 @@ Quick start
 4. python manage.py migrate
 5. python manage.py runserver
 
+Load Sample Data
+---------------- 
+`$: python manage.py loaddata profile.json`
+`$: python manage.py loaddata family_member.json`
+
 Useful references:
 -----------
 * https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-display/

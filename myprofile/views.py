@@ -1,9 +1,9 @@
-from django.core.urlresolvers import reverse_lazy
 from django.db import transaction
-from django.views.generic import CreateView, UpdateView, DeleteView, ListView
+from django.urls import reverse_lazy
+from django.views.generic import CreateView, DeleteView, ListView, UpdateView
 
-from .models import Profile
 from .forms import FamilyMemberFormSet
+from .models import Profile
 
 
 class ProfileList(ListView):
