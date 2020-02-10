@@ -18,7 +18,7 @@ Load Sample Data
 ---------------- 
 `$: python manage.py loaddata profile.json`   
 `$: python manage.py loaddata family_member.json`  
-* Create to Faker() for making this task simple  
+* Created with Faker(), thank you for making this task simple  
 
 Useful references:
 -----------
