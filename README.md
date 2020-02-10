@@ -14,10 +14,11 @@ Quick start
 4. python manage.py migrate
 5. python manage.py runserver
 
-Load Sample Data
+Load Sample Data  
 ---------------- 
-`$: python manage.py loaddata profile.json`
-`$: python manage.py loaddata family_member.json`
+`$: python manage.py loaddata profile.json`   
+`$: python manage.py loaddata family_member.json`  
+* Create to Faker() for making this task simple  
 
 Useful references:
 -----------
