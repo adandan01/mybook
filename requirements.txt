@@ -1,4 +1,4 @@
-Django==2.2.10
+Django==2.2.18
 django-extensions==2.2.7
 pytz==2019.3
 six==1.14.0
